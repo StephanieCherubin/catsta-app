@@ -1,4 +1,6 @@
 <!-- Template view -->
 <h1>Catsa</h1>
 <div>cat pics go here</div>
- 
+<% @cats.each do |cat| %>
+  <%= image_tag cat["url"], width: '600px', alt: 'oops, no pic here' %>
+<% end %>
