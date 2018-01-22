@@ -3,19 +3,45 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 body{
   background-color: #1c5380;
+  margin:0;
+}
+ul {
+    list-style-type: none;
+    margin-top: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
 
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: orange;
 }
 h1{
   font-family: 'Oleo Script', cursive;
   font-weight: bold;
   font-size: 40px;
   text-align: center;
+  color: white;
 }
 .left{
-  margin: auto;
-  border: 3px solid #73AD21;
-  padding: 10px 10px 10px 19px;
-  width:48%;
+  border: 3px solid orange;
+  padding: 0px;
+  width:47%;
   float:left;
   height:610px;
   display: inline-block;
