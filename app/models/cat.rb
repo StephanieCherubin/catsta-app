@@ -6,7 +6,8 @@ class Cat < ActiveRecord::Base
     # class method
     # @@ is class variable
     # @ is an instance variable
-		url = @@url_base + "/images/get?format=xml&results_per_page=40"
+		url = @@url_base + "/images/get?format=xml&results_per_page=9"
 		return HTTParty.get(url).parsed_response["response"]["data"]["images"]["image"]
+
 	end
 end

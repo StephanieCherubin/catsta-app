@@ -1,7 +1,14 @@
-<!-- Template view -->
-<h1>Catsa</h1>
-<div>cat pics go here</div>
-<% @cats.each do |cat| %>
-  <%= image_tag cat["url"], width: '600px', alt: 'oops, no pic here' %>
-<% end %>
+<iframe 
+src="https://www.youtube.com/embed/GS1uFJ15O-8&loop=1">
+</iframe>
 
+<!-- Template view -->
+<h1>Catstagram!</h1>
+<span class="left">
+  <% @cats.each do |cat| %> <%= image_tag cat["url"], height: '200px', width: '200px', alt: 'oops, no pic here' %>
+  <% end %>
+</span>
+<span class="right">
+  <a class="twitter-timeline"  href="https://twitter.com/hashtag/catstagram" data-widget-id="954492983063261184">#catstagram Tweets</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</span>
