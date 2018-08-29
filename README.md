@@ -1,1 +1,2 @@
-![catstagram](https://user-images.githubusercontent.com/26418542/35371027-8a10eed6-015f-11e8-8670-b0347ec96ccd.png)
+Instagram for cat pics and gifs!
+[catstagram](https://user-images.githubusercontent.com/26418542/44762378-af569380-aafb-11e8-9f2e-85bfeb4bbbad.gif)
